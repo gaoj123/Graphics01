@@ -14,9 +14,9 @@ for i in range(250):
 for i in range(250):
     for j in range(500):
         if j==499:
-            lines.append("204 "+str(i)+" 51\n")
+            lines.append("204 "+str(249-i)+" 51\n")
         else:
-            lines.append("204 "+str(i)+" 51 ")
+            lines.append("204 "+str(249-i)+" 51 ")
 
             
 f.writelines(lines)
