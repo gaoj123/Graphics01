@@ -1,2 +1,2 @@
 all:
-  python image.py
+	python image.py
